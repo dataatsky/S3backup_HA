@@ -1,6 +1,6 @@
 {
   "name": "Amazon S3 Backup",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "slug": "amazon-s3-backup",
   "description": "Sync Backups to your Amazon S3 bucket",
   "url": "https://github.com/thomasfr/hass-addons/tree/main/amazon-s3-backup",
@@ -16,7 +16,7 @@
   "startup": "once",
   "advanced": true,
   "hassio_api": true,
-  "hassio_role": "backup",
+  "hassio_role": "manager",
   "options": {
     "aws_access_key": "",
     "aws_secret_access_key": "",
